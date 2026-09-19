@@ -1,171 +1,171 @@
-# Australia Job Search Guide
+# Australia Job Search Guide: AI-Application Roles
 
-Prepared 18 September 2026 for Bo Cheng.
+Prepared 19 September 2026 for Bo Cheng. Supersedes the agriculture-focused version, now in `archive/`.
 
-## 1. Your profile, as it reads from the outside
+## 1. Where you stand in the Australian AI market
 
-Pulled from your GitHub activity, Web of Science reviewer record, and mailing-list subscriptions:
+What the record shows (Google Scholar, Auburn directory, GitHub, inbox):
 
-- PhD (Auburn University) in crop and soil science, with a modelling focus.
-- Active DSSAT-CSM developer: biochar model with NH4 sorption and priming effects, CI and integration tests. This is rare and marketable. Very few agronomists can also ship tested Fortran or model code.
-- Peer reviewer for Soil Science Society of America Journal and Agronomy Journal on biochar, greenhouse gas emissions, and dryland cropping.
-- Interest in climate modelling (CESM jobs list) and AI agents applied to agriculture.
+- PhD candidate or recent graduate, Crop, Soil and Environmental Sciences, Auburn University (started January 2022). Around 374 citations.
+- Heavy computational profile: crop-simulation model developer, tested Fortran and CI pipelines on DSSAT-CSM, peer reviewer for two society journals.
+- Daily agentic-AI practitioner: GitHub Copilot Pro since January 2026, Claude Code sessions driving model development, self-built automated research and news digests that email you every morning, AI-assisted writing across a large publication output.
 
-That combination maps onto four Australian job markets, in rough order of fit:
+The hard truth about the market you are entering: core AI research roles (Google DeepMind Sydney, Google Research Australia, CSIRO Data61 CERC fellowships in ML, ANU Research Fellow in AI) require a PhD in computer science, machine learning, statistics, or applied mathematics. Your PhD will not pass those screens. Australia's AI Safety Institute requires Australian citizenship. Atlassian's graduate data scientist intake accepts only citizens, permanent residents, and student-visa holders.
 
-| Market | Why you fit | Typical title | Base pay (AUD) |
+That leaves four realistic tiers where your combination of domain PhD, publication record, model-development code, and hands-on agentic-AI work is a strength rather than a gap:
+
+| Tier | What the employer wants | Your pitch | Base pay (AUD) |
 |---|---|---|---|
-| Farming-systems and soil modelling (APSIM ecosystem) | Australia is APSIM's home. Crop-model developers who can also do soil C/N processes are in short supply. | CSIRO Postdoctoral Fellow (CSOF4), Research Fellow Level A/B | 100k to 135k |
-| Soil carbon and agricultural GHG | The ACCU soil carbon method is one of the fastest-growing carbon-credit methods. Regulator, CSIRO, universities, and project developers all need modellers. | Postdoc, Research Scientist, Carbon Modeller | 100k to 150k |
-| Regional climate and climate-impact modelling | Your CESM interest plus agronomic domain knowledge fits UQ, UNSW CCRC, Monash, BoM, and the 21st Century Weather Centre. | Postdoctoral Research Fellow, Research Scientist | 100k to 135k |
-| AI for agriculture (CSIRO Data61, universities, agtech) | Your AI-agents watch plus crop-model expertise fits "AI agronomist" style projects. | Postdoc, Data Scientist, Research Scientist | 100k to 160k |
+| A. AI-for-science research fellow | PhD in a science domain plus proven ML applied to scientific problems. Sydney's SAILS centre writes exactly this. | Scientist who builds and ships AI-driven research pipelines | 118k to 135k plus 17% super |
+| B. Applied AI, LLM, and agent engineering in industry | Production LLM or agent experience, Python, evaluation discipline, ability to talk to domain experts | Domain scientist who runs agentic workflows end to end, with a public repo to prove it | 130k to 190k |
+| C. University research-AI enablement and research software engineering | People who help academics adopt AI, HPC, and data tools; often explicitly value a research PhD | Researcher who automated his own research workflow and can teach others | 110k to 150k plus 17% super |
+| D. Forward-deployed and AI-solutions engineering | Build bespoke AI solutions inside client organisations; PhD listed as preferred at Google Cloud | Fast learner who delivers working systems, not slides | 150k to 220k |
 
-Universities add 17% superannuation on top of base. CSIRO adds 15.4%. Level A postdoc bands run roughly AUD 87k to 121k. Level B research fellow bands run roughly AUD 112k to 157k.
+Sydney pays roughly 5 to 12% above Melbourne. Applied AI roles in Australia attract 300 to 500 applicants each, and only about 8.5% of companies are hiring AI talent, so a visible portfolio matters more than the CV alone.
 
-## 2. Openings found (verify status before applying)
+## 2. Openings found (check each before applying)
 
-The network proxy in this session blocked direct access to jobs.csiro.au, SEEK, Times Higher Education, EURAXESS, and most university career pages. Everything below comes from search-engine summaries and your inbox. Some postings are likely already closed. Check each link first.
+The session's network proxy blocked direct access to SEEK, Times Higher Education, ANU jobs, aijobsaustralia.com.au, Google Scholar, and most employer pages. Details below come from search-engine summaries and may be stale.
 
-### Open or recently advertised
+### Tier A: AI-for-science research roles
 
-- **Western Sydney University, Postdoctoral Researcher in Plant Science** (canola tolerance to acid soils, GRDC-funded). Closes 30 September 2026. AUD 123,327 to 145,625 plus 17% super. Listed on THE unijobs as listing 415042. Not a modelling role, but a soils role at a university that also runs a drought-resilience cropping program.
-- **University of Queensland, two Postdoctoral Research Fellows in Climate Science** (joint UQ and Queensland Government program). Stream 2 is convection-permitting climate modelling and assessment of compound and convective extremes. Closing date not shown in search results. Strong fit for the CESM side of your interests.
-- **UNSW Climate Change Research Centre, 2.5-year postdoc** on short-duration rainfall extremes and flooding, with Jason Evans and Fiona Johnson (ARC Linkage project). Closing date not shown.
-- **University of Sydney, Postdoctoral Research Associate in Soil Health** (Eveleigh campus). THE unijobs listing 405266. Closing date not shown.
-- **Postdoc / Research Fellow in Digital Agricultural Futures**, based in Mildura, Victoria. Advertised for plant-omics expertise, so a partial fit only.
-- **ANU, Research Fellow, Centre for Climate and Energy Policy**. THE unijobs listing 405849. Policy-leaning, partial fit.
-- **Queensland Department of Primary Industries, Senior Scientist, Paddock to Reef (Soil and Catchment Science)**, Cairns. Smartjobs reference QLD-669089-25. The reference suggests a 2025 posting, so it may be closed, but Paddock to Reef reposts modelling roles regularly.
+- **University of Sydney, Research Fellow, Centre for Sustainability, AI and Life Sciences (SAILS).** Camperdown. Closes Monday 28 September 2026, 11:59 PM. Base about AUD 118k. The posting asks for a PhD in computer science, statistics, engineering, "or a relevant life/environmental science field, with proven expertise in machine learning and AI applied to scientific problems." Wants PyTorch and HPC experience. Emphasis on molecular and omics data, multimodal integration, and trustworthy AI. This is the best-matched live posting and the deadline is nine days away. Apply this week. THE unijobs listing 414904.
+- **UNSW, Postdoctoral Fellow in AI and Machine Learning for Photovoltaics.** Closed 26 August 2026. Watch UNSW School of Photovoltaic and Renewable Energy Engineering for the next round. They hire domain-plus-ML people.
+- **ANU School of Computing, Computational Science Cluster.** Develops AI methods for domain-specific scientific data. No live posting confirmed. Worth a direct approach.
+- **ANU, Research Fellow in Artificial Intelligence** (Level B1, AUD 124,638, large language models). Likely requires a CS or ML PhD. Read the selection criteria before spending time on it.
+- **Monash Faculty of IT, Research Fellow in neuro-symbolic AI**, and **Monash Research Fellow in Data Science for Wearables, Digital Health and AI.** CS-leaning. Check criteria.
 
-### CSIRO fellowships seen in the last 12 to 24 months (check which are still live)
+### Tier B: Applied AI, LLM, and agents in industry
 
-CSIRO recruits Early Research Career (CERC) Postdoctoral Fellows year-round. Eligibility is a PhD plus fewer than three years of postdoctoral experience. Fellowships are three years. Recent titles directly relevant to you:
+- **Atlassian, Senior Machine Learning Engineer, AI Context team** (Sydney, Melbourne, Brisbane). Builds agentic LLM harnesses for Rovo. Asks for four or more years operating LLM or agentic systems. A stretch on years, but the harness and evaluation work is what you do daily.
+- **Canva** (Sydney, remote options): machine learning and research scientist roles. Research scientist pay reported at AUD 174k to 244k. Research scientist screens will want ML publications; ML engineer roles are more open.
+- **Harrison.ai and Annalise.ai** (Sydney): Senior and Principal ML Engineer roles. Healthcare imaging. Domain-PhD friendly culture.
+- **Leonardo.ai** (Sydney), **Relevance AI** (Sydney, agent platform), **Lorikeet** (Sydney, AI support agents), **SafetyCulture**, **Rokt**, **Xero**: all listed as active AI hirers in 2026.
+- **Binance** (Melbourne, Brisbane): Research Scientist in LLM Foundation Models; LLM Applied Data Scientist (RAG and NLP).
+- **Melbourne fintech and consultancies**: multiple "build and own production AI systems using LLMs, agents and automation" roles, and REM Consulting's Agentic AI Developer roles.
+- **Google Research Australia, Research Scientist** (Sydney) and **Google DeepMind, Research Scientist, Systems and Programming** (Sydney). Listed for completeness. Both require a CS PhD.
 
-- Winanga-y Postdoctoral Fellowship in Modelling of Soil Carbon Dynamics (Canberra, APSIM team). Requires a PhD in mathematical modelling or data science with agricultural application and soil-plant systems modelling. This is the single best title match for your DSSAT biochar and soil C work.
-- Winanga-y Postdoctoral Fellowship in GHG Emissions of Crop-Livestock Systems (Brisbane or Toowoomba).
-- Postdoctoral Fellowship in Developing a Trusted AI Agronomist (Data61, three years).
-- Postdoctoral Fellowship in Resilient Farming Systems.
-- Postdoctoral Fellowship in Digital Soil Health Benchmarking and Biogeochemistry.
-- Postdoctoral Fellowship in Intelligent Systems for Breeding Innovation (Brisbane, statistical machine learning).
-- Postdoctoral Fellowship in Root-Soil Interactions (Canberra).
-- Postdoctoral Fellowship in Earth System Science (terrestrial carbon cycle).
-- Postdoctoral Fellowship in Soil Moisture Dynamic Modelling (Canberra or Perth). Note: this one was restricted to Australian and New Zealand citizens and residents.
+### Tier C: University research-AI enablement and research software engineering
 
-Search all of these at https://jobs.csiro.au and set a saved alert for "Postdoctoral Fellowship" in Agriculture and Food, Environment, and Data61.
+- **Flinders University, Artificial Intelligence Specialist** (Adelaide). Supports AI adoption and end-user enablement at scale; wants hands-on experience with enterprise AI platforms such as Microsoft 365 Copilot and Copilot Studio. THE unijobs listing 415115. Closing date not shown.
+- **ANU HASS Digital Research Hub, Senior Research Software Engineer.** Scalable research software and cross-disciplinary digital solutions.
+- **Monash eResearch** states it is actively recruiting for research IT and data-informatics roles.
+- **University of Queensland, Teaching-Focused Lecturer or Senior Lecturer in Data Science and AI.** Closes 12 October 2026. Teaching-focused academic posts weigh teaching evidence over a CS PhD.
+- **University of Queensland, Lecturer or Senior Lecturer in AI and Communication.** Closed 27 August 2026.
+- **UniSQ, Lecturers in Computing.** Open per search results; date not shown.
 
-### Closed, but tells you who hires people like you
+### Tier D: Forward-deployed and AI-solutions engineering
 
-- Monash University, Assistant Lecturer in Climate Science (Southern Ocean and Antarctic climate, Julie Arblaster's group). Closed 6 August 2026. This arrived in your inbox via the CESM list on 13 July 2026.
-- Monash University, Research Fellow, coupled ice sheet modelling. Arrived 14 November 2025.
-- Western Sydney University, Postdoctoral Researcher in Agriculture (novel soil amendments for drought-resilient cropping, Narrabri or Trangie). Closed 16 August 2026. Soil amendments in dryland cropping is squarely your biochar niche, so watch this group for the next round.
-- University of Sydney, Postdoctoral Research Associate in Spatial Agricultural Modelling (Precision Agriculture Lab, Thomas Bishop and Patrick Filippi, GRDC-funded, mechanistic plus data-driven yield modelling). Advertised 2024. The lab hires repeatedly on GRDC money.
+- **Google Cloud, Forward Deployed Engineer, GenAI** (Sydney). Masters or PhD in AI or CS listed as preferred, not required.
+- **Salesforce, Agentforce Forward Deployed Engineer** (Sydney, Melbourne). Job reference JR343861.
+- **Databricks, AI Engineer, Forward Deployed** (Sydney).
+- **Palantir, OpenAI, Deloitte** all advertised Sydney or Melbourne forward-deployed roles in mid-2026. Also hired under the titles Applied AI Engineer and AI Solutions Architect, where most local volume sits.
 
-## 3. Groups worth a direct email even without an advertised post
+### Closed or ineligible, listed so you do not waste time
 
-Australian postdocs are often filled before or without a public advert. A short email with your CV, one paragraph on the DSSAT biochar work, and a link to the repo will get replies from these groups:
+- Australia's AI Safety Institute (research scientists, engineers, risk specialists). Most roles closed 18 January 2026 and all require Australian citizenship.
+- Atlassian Data Scientist 2026 Graduate program. Citizens, permanent residents, and student-visa holders only.
+- CSIRO Data61 CERC Postdoctoral Fellowships in ML and AI. Require a doctorate in ML, AI, CS, statistics, privacy and crypto, or applied mathematics.
 
-**APSIM and farming-systems modelling**
-- CSIRO Agriculture and Food, APSIM Initiative team (Canberra, Brisbane, Toowoomba). Ask about CERC fellowships in soil carbon, N cycling, or model development.
-- University of Queensland, QAAFI Centre for Crop Science (Brisbane). Crop modelling group with a long APSIM lineage.
-- University of Southern Queensland, Centre for Sustainable Agricultural Systems and Centre for Applied Climate Sciences (Toowoomba). Explicit soil science plus climate-risk remit.
+## 3. Employers to approach directly
 
-**Soil carbon, biochar, and GHG**
-- University of Adelaide, Waite campus soil science group (soil carbon turnover, hosts CSIRO Winanga-y fellows).
-- University of Western Australia, School of Agriculture and Environment (ranked first in Australia for soil science, active in soil carbon and emissions-reduction research).
-- Western Sydney University, Hawkesbury Institute for the Environment and the soil amendments program above.
-- University of Sydney, Precision Agriculture Lab and Soil Health group.
-- University of New England, Armidale (precision agriculture, soil carbon).
-- Murdoch University (biochar and soil amendment research in WA).
+Australian AI hiring runs heavily through referrals and direct approaches. A two-paragraph email with a link to a working repo gets replies.
 
-**Climate and climate-impact modelling**
-- UNSW Climate Change Research Centre.
-- Monash School of Earth, Atmosphere and Environment.
-- ARC Centre of Excellence for 21st Century Weather (positions across five partner universities, listed at 21centuryweather.org.au/about-us/positions-vacant).
-- Bureau of Meteorology research program (regional climate modelling, BARPA-C).
-- ACCESS-NRI at ANU (model infrastructure and software roles suit someone who writes tested model code).
+**AI-for-science centres**
+- University of Sydney SAILS and the Sydney Informatics Hub.
+- UNSW AI Institute (over 50 groups; find the ones doing AI for climate, energy, or environment).
+- ANU School of Computing, Computational Science Cluster, and ANU Institute for Climate, Energy and Disaster Solutions.
+- Monash Data Futures Institute and Monash Data Science and AI platform.
+- Australian Institute for Machine Learning, Adelaide, and its Responsible AI Research centre with Data61.
+- ARC Centre of Excellence for 21st Century Weather (AI weather and climate emulation is a live topic there; your CESM background helps).
+- Australian Research Data Commons (ARDC) and Intersect Australia (national research-data and eResearch bodies that hire research-trained technologists).
 
-**AI for agriculture**
-- CSIRO Data61 (AI Agronomist project).
-- Australian Institute for Machine Learning, University of Adelaide.
+**Industry applied AI**
+- Atlassian, Canva, Harrison.ai, Annalise.ai, Leonardo.ai, Relevance AI, Lorikeet, SafetyCulture, Rokt, Xero, Culture Amp.
+- Big-four and consultancies with AI practices: Deloitte, Accenture, Quantium, Mantel Group.
+- Cloud vendors' Australian solutions teams: Google Cloud, AWS, Microsoft, Databricks, Salesforce.
 
-**Government and industry**
-- NSW Department of Primary Industries and Regional Development (soil R&D programs).
-- Agriculture Victoria Research.
-- Queensland DPI (Paddock to Reef modelling).
-- Clean Energy Regulator and DCCEEW are reviewing the Soil Organic Carbon 2021 method in 2026. Method review creates consulting and scientist roles.
-- Soil carbon project developers and agtech: Loam Bio (Orange, NSW), AgriProve, Regrow, Carbon Link, Downforce Technologies, Cibo Labs, DataFarming (Toowoomba), Pairtree.
+**Environment and climate data science (domain-adjacent, not agriculture)**
+- DCCEEW (Scientist, Spatial roles), Clean Energy Regulator, state EPAs.
+- Climate-risk consultancies: GHD, Aurecon, Arup, and Climate Risk teams at the big four.
 
-## 4. Visa and funding facts to plan around
+## 4. What to build in the next 30 days so the pitch is credible
 
-- **Employer-sponsored work visa (Skills in Demand, subclass 482).** Universities and CSIRO routinely sponsor research fellows. Core Skills stream income threshold is AUD 79,499 from 1 July 2026, which every postdoc salary clears. Check that your target occupation (University Lecturer, Agricultural Scientist, or Environmental Research Scientist) is on the current Core Skills Occupation List at immi.homeaffairs.gov.au.
-- **Permanent residency path.** Two years on a 482 with the same employer opens the subclass 186 Temporary Residence Transition stream.
-- **National Innovation Visa (subclass 858)** replaced the Global Talent visa in December 2024. It is a direct permanent visa for researchers with an internationally recognised record and an Australian nominator. 3,500 places in 2026-27. Worth pursuing once you have a host who will nominate.
-- **ARC DECRA.** The 2027 round closed 11 March 2026. The next round should open around late January 2027 for 2028 funding. Applicants may be overseas but need an Australian university to submit. PhD must be awarded within roughly five years of the closing date. If you want a DECRA, line up a host university in the second half of 2026.
-- **CSIRO CERC** fellowships accept international applicants and CSIRO sponsors visas, but individual adverts sometimes restrict to citizens and residents (see soil moisture fellowship above). Read the eligibility line on each.
+Your AI usage lives in private workflows right now. Applied-AI hiring managers screen on public evidence. Do these in order:
 
-## 5. Where to set alerts
+1. **Publish one flagship repo: an agentic research pipeline.** You already run automated literature and news digests, agent-driven model development with CI, and Claude routines. Package one as a clean, documented, tested open-source project with an evaluation harness and a README that explains design choices. This single artefact answers "have you built production-style agent systems?"
+2. **Write a methods paper or preprint on AI in your research workflow.** Turn "I used AI to publish a lot" into a citable contribution: how LLM agents accelerated model development, testing, and manuscript preparation, with measured outcomes. Target a venue such as Environmental Modelling and Software, SoftwareX, or an AI-for-science workshop. This is what separates you from other domain scientists claiming AI skills.
+3. **Reframe the CV as a computational scientist.** Lead with "Computational scientist and applied-AI practitioner." Put a "Software and AI systems" section first: DSSAT-CSM module development with CI, agentic pipelines, LLM evaluation, Fortran, Python. Move crop and soil publications into a compact "Publications" list. Cut agriculture vocabulary from headlines.
+4. **Fill the PyTorch gap.** SAILS and most Tier A and B roles list PyTorch and HPC. If you have not trained models in PyTorch, do one small public project now (fine-tuning or a scientific-ML emulator on climate or environmental data).
+5. **Get a LinkedIn profile that says AI.** Recruiters for Tier B and D find candidates through LinkedIn search terms: "LLM", "agents", "RAG", "evaluation", "Python", "PyTorch".
 
-- jobs.csiro.au (saved search: Postdoctoral Fellowship)
-- seek.com.au (searches: "postdoctoral soil", "research fellow crop", "soil carbon", "climate modelling")
-- timeshighereducation.com/unijobs (Australia, Agriculture Food and Forestry; Australia, Postdocs)
-- 21centuryweather.org.au/about-us/positions-vacant
-- unsw.edu.au/research/ccrc/study-with-us/careers
-- smartjobs.qld.gov.au, iworkfor.nsw.gov.au, careers.vic.gov.au (state agriculture departments)
-- Soil Science Australia and Australian Society of Agronomy job boards
-- AMOS (Australian Meteorological and Oceanographic Society) jobs list for climate roles
-- CESM jobs list (you already receive it; Monash and UNSW post there)
-- LinkedIn: follow ACCESS-NRI, 21st Century Weather, CSIRO Agriculture and Food, QAAFI, Loam Bio
+## 5. Visa and residency facts for AI roles
 
-## 6. Suggested next two weeks
+- **Skills in Demand visa (subclass 482).** Data Scientist (ANZSCO 224115) is on the Core Skills Occupation List and sponsorable for both the 482 and the permanent 186. Assessing authority is the Australian Computer Society. Software Engineer (261313) and Developer Programmer (261312) are also listed. Salary floor is about AUD 79,500 from 1 July 2026; every role above clears it. Universities, CSIRO, Atlassian, Canva, and the cloud vendors all sponsor.
+- **Permanent residency path.** Two years with a sponsoring employer on a 482 opens the 186 Temporary Residence Transition stream.
+- **National Innovation Visa (subclass 858).** Artificial intelligence is in the Critical Technologies priority sector, which receives most invitations. Needs an Australian nominator with national standing and evidence of an internationally recognised record. It is highly selective: 2,368 expressions of interest and 226 invitations by December 2025. Realistic only after you have an Australian host and a stronger AI-specific record.
+- **DECRA (ARC early-career fellowship).** The 2027 round closed 11 March 2026. The next round opens around late January 2027. Applicants can be overseas but need an Australian university to submit. An AI-for-science DECRA hosted by SAILS, UNSW AI Institute, or ANU is a plausible target once you have a host.
 
-1. Confirm PhD conferral date and expected finish. Every fellowship above keys eligibility to it.
-2. Rewrite the CV in Australian academic format: two to four pages, publications and reviewing listed in full, a "Software and model development" section that names DSSAT-CSM, the biochar module, and the CI test suite with the GitHub link.
-3. Apply to the Western Sydney University Plant Science postdoc before 30 September if you are open to a soils-heavy, less-modelling role in Richmond, NSW.
-4. Check the UQ Climate Science and UNSW CCRC postdocs for closing dates and apply if open.
-5. Search jobs.csiro.au for every live Postdoctoral Fellowship in Agriculture and Food and Data61 and apply to any modelling role.
-6. Send direct emails to the APSIM team at CSIRO, QAAFI Centre for Crop Science, UniSQ Centre for Sustainable Agricultural Systems, and the Sydney Precision Agriculture Lab.
-7. Ask one Australian contact (Julie Arblaster's group at Monash is already in your inbox) whether they would host a DECRA application for the 2028 round.
+## 6. Where to set alerts
+
+- aijobsaustralia.com.au and aihiringboard.com/ai-jobs-in-australia (AI-specific boards)
+- SEEK: "machine learning engineer", "AI engineer", "LLM", "research fellow AI", "research software engineer"
+- LinkedIn: "applied AI", "forward deployed engineer", "AI solutions engineer", filtered to Australia
+- THE unijobs: Computer Science, Australia; Research Related, Australia
+- uniroles.com.au (aggregates Australian university postings)
+- Built In Sydney (builtinsydney.au) and startup.jobs Australia for startups
+- Career pages: Atlassian, Canva, Harrison.ai, Relevance AI, Lorikeet, Google Careers (Sydney), Salesforce, Databricks
+- University research-infrastructure pages: Monash eResearch, Sydney Informatics Hub, Melbourne Data Analytics Platform, UQ Research Computing Centre, ANU Digital Research Hub
+
+## 7. Next two weeks
+
+1. Apply to the University of Sydney SAILS Research Fellow before 28 September. In the cover letter, lead with environmental-science PhD plus machine learning applied to scientific problems, which is their own wording.
+2. Push the flagship agentic-pipeline repo public with a README and tests, even if imperfect. Link it in every application.
+3. Apply to Google Cloud Forward Deployed Engineer GenAI (Sydney), Salesforce Agentforce FDE, and Databricks AI Engineer FDE. These list a PhD as preferred and reward demonstrable agent-building.
+4. Apply to the Flinders AI Specialist role and any live research-software-engineer or eResearch role at ANU or Monash.
+5. Send direct emails to SAILS, UNSW AI Institute, ANU Computational Science Cluster, and Monash Data Futures asking about AI-for-science fellowships and DECRA hosting for the 2028 round.
+6. Confirm your PhD conferral date. It gates DECRA eligibility and every fellowship's early-career window.
+7. Start the PyTorch scientific-ML mini-project.
 
 ## Sources
 
-- [SEEK: Postdoctoral Research Fellow Climate Change jobs](https://www.seek.com.au/postdoctoral-research-fellow-climate-change-jobs)
-- [THE unijobs: Postdocs in Australia](https://www.timeshighereducation.com/unijobs/listings/australia/postdocs/)
-- [THE unijobs: Agriculture, Food and Forestry jobs in Australia](https://www.timeshighereducation.com/unijobs/listings/agriculture-food-and-forestry/australia/)
-- [THE unijobs listing 415042: WSU Postdoctoral Researcher in Plant Science](https://www.timeshighereducation.com/unijobs/listing/415042/postdoctoral-researcher-in-plant-science)
-- [THE unijobs listing 405266: Sydney Postdoctoral Research Associate in Soil Health](https://www.timeshighereducation.com/unijobs/listing/405266/postdoctoral-research-associate-in-soil-health/)
-- [THE unijobs listing 405849: ANU Research Fellow, CCEP](https://www.timeshighereducation.com/unijobs/listing/405849/research-fellow-centre-for-climate-and-energy-policy-ccep-/)
-- [WSU careers: Postdoctoral Researcher in Agriculture](https://careers.westernsydney.edu.au/job/postdoctoral-researcher-in-agriculture-in-richmond-au-jid-482)
-- [UQ Postdoctoral Research Fellow, Climate Science (scholarshipdb)](https://scholarshipdb.net/jobs-in-Australia/Postdoctoral-Research-Fellow-Climate-Science-The-University-Of-Queensland=JflOUH107hGUYQAlkGUTnw.html)
-- [ARC Centre of Excellence for 21st Century Weather: positions vacant](https://www.21centuryweather.org.au/about-us/positions-vacant/)
-- [UNSW Climate Change Research Centre: careers](https://www.unsw.edu.au/research/ccrc/study-with-us/careers)
-- [CSIRO Early Research Career Postdoctoral Fellowships](https://www.csiro.au/en/careers/career-opportunities/postdoctoral-fellowships)
-- [CSIRO jobs: Postdoctoral Fellowships](https://jobs.csiro.au/go/Postdoctoral-Fellowships/7829300/)
-- [CSIRO Winanga-y Postdoctoral Fellowship in Modelling of Soil Carbon Dynamics (LinkedIn)](https://au.linkedin.com/jobs/view/csiro-winanga-y-postdoctoral-fellowship-in-modelling-of-soil-carbon-dynamics-at-csiro-3766354540)
-- [CSIRO Winanga-y Postdoctoral Fellowship in Soil Carbon Turnover (Waite)](https://www.thewaite.org/applications-open-csiro-winanga-y-postdoctoral-fellowship-in-soil-carbon-turnover/)
-- [CSIRO Winanga-y Postdoctoral Fellowship in GHG Emissions of Crop-livestock Systems](https://www.postdocjobs.com/posting/7195468)
-- [CSIRO Postdoctoral Fellowship in Developing a Trusted AI Agronomist](https://www.postdocjobs.com/posting/7160474)
-- [CSIRO Postdoctoral Fellowship in Resilient Farming Systems](https://postdocjobs.com/posting/7256615)
-- [CSIRO Postdoctoral Fellowship in Digital Soil Health Benchmarking and Biogeochemistry](https://www.applykite.com/positions/postdoctoral-fellowship-in-digital-soil-health-benchmarking-and-biogeochemistry-f1pg4uary5)
-- [CSIRO Postdoctoral Fellowship in Intelligent Systems for Breeding Innovation](https://jobs.csiro.au/job/Brisbane,-QLD-CSIRO-Postdoctoral-Fellowship-in-Intelligent-systems-for-Breeding-Innovation/1330814066/)
-- [CSIRO Postdoctoral Fellowship in Root-Soil Interactions](https://jobs.csiro.au/job/Canberra,-ACT-CSIRO-Postdoctoral-Fellowship-in-root-soil-interactions/313078100)
-- [CSIRO Postdoctoral Fellowship in Earth System Science](https://www.postdocjobs.com/posting/7270406)
-- [CSIRO Postdoctoral Fellowship in Soil Moisture Dynamic Modelling](https://www.joshswaterjobs.com/jobs/309157/)
-- [University of Sydney Postdoctoral Research Associate, Spatial Agricultural Modelling (EURAXESS)](https://euraxess.ec.europa.eu/jobs/239909)
-- [Queensland Smartjobs QLD-669089-25](https://smartjobs.qld.gov.au/jobs/QLD-669089-25)
-- [NSW DPIRD careers](https://www.nsw.gov.au/departments-and-agencies/dpird/careers)
-- [Queensland DPI careers](https://www.dpi.qld.gov.au/about/people-jobs/work)
-- [UniSQ Centre for Sustainable Agricultural Systems](https://www.unisq.edu.au/research/institutes-centres/institute-for-agriculture-climate-and-the-environment/centre-for-sustainable-agricultural-systems)
-- [UniSQ Centre for Applied Climate Sciences](https://www.unisq.edu.au/research/institutes-centres/institute-for-agriculture-climate-and-the-environment/centre-for-applied-climate-sciences)
-- [QAAFI, University of Queensland](https://qaafi.uq.edu.au/)
-- [CSIRO Data61 careers](https://www.csiro.au/en/careers/career-opportunities/data61-careers)
-- [Clean Energy Regulator: soil organic carbon measurement and models method](https://cer.gov.au/schemes/australian-carbon-credit-unit-scheme/accu-scheme-methods/estimating-soil-organic-carbon-sequestration-using-measurement-and-models-method)
-- [DCCEEW ACCU method tracker](https://www.dcceew.gov.au/climate-change/emissions-reduction/accu-scheme/methods/current)
-- [Loam Bio](https://www.loambio.com/), [AgriProve](https://agriprove.io/), [Pairtree](https://pairtree.co/), [DataFarming](https://au.linkedin.com/company/datafarmingaustralia)
-- [Academic position levels in Australia explained](https://www.academicjobs.com/au/higher-education-news/academic-position-levels-australia-explained-or-academicjobs-10488)
-- [SEEK: Research Fellow salary](https://au.seek.com/career-advice/role/research-fellow/salary)
-- [Home Affairs: Skills in Demand visa (subclass 482)](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482)
-- [Home Affairs: 482 Core Skills stream](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/core-skills-stream)
-- [Skills in Demand visa 2026 checklist](https://www.premiervisagroup.com/post/australia-skills-in-demand-visa-482-2026-checklist)
-- [National Innovation Visa guide](https://www.hannantew.com.au/innovation/the-national-innovation-visa/)
-- [PR pathway for PhD graduates](https://www.workvisalawyers.com.au/news/all/australian-pr-pathway-for-onshore-phd-graduates-global-talent-visa-or-skilled-visa-190-491.html)
+- [Bo Cheng, Google Scholar](https://scholar.google.com/citations?user=OY2x6yYAAAAJ&hl=en)
+- [Bo Cheng, Auburn College of Agriculture directory](https://agriculture.auburn.edu/directory/profile.php?id=bzc0087)
+- [University of Sydney SAILS Research Fellow, THE unijobs 414904](https://www.timeshighereducation.com/unijobs/listing/414904/research-fellow-centre-for-sustainability-ai-and-life-sciences)
+- [UNSW Postdoctoral Fellow in AI and ML for Photovoltaics](https://freehire.me/jobs/postdoctoral-fellow-in-ai-and-machine-learning-for-photovoltaics-unsw-dfb5slgf)
+- [ANU Research Fellow in Artificial Intelligence](https://jobs.anu.edu.au/jobs/research-fellow-in-artificial-intelligence-canberra-act-act-australia)
+- [ANU Postdoctoral/Research Fellow, machine learning](https://jobs.anu.edu.au/jobs/postdoctoral-research-fellow-canberra-act-act-australia-c6ca7faf-c74a-42b4-9d37-25378ca8ea44)
+- [Dr Amanda Parker, ANU Computational Science Cluster](https://iceds.anu.edu.au/people/academic-members/dr-amanda-parker)
+- [Flinders University Artificial Intelligence Specialist, THE unijobs 415115](https://www.timeshighereducation.com/unijobs/listing/415115/artificial-intelligence-specialist)
+- [UQ Teaching-Focused Lecturer/Senior Lecturer in Data Science and AI](https://freehire.me/jobs/teaching-focused-lecturer-senior-lecturer-in-data-science-and-artificial-intelligence-uq-run6mrcl)
+- [UQ Lecturer/Senior Lecturer in AI and Communication](https://www.jobs.ac.uk/job/DSG972/lecturer-senior-lecturer-in-ai-and-communication)
+- [Monash eResearch, work with us](https://www.monash.edu/researchinfrastructure/eresearch/about/work-with-us)
+- [CSIRO Data61 careers](https://www.csiro.au/en/careers/career-opportunities/Data61-careers)
+- [CSIRO Data61 ML and AI postdocs](https://research.csiro.au/mlai-fsp/our-people/our-postdocs/)
+- [CSIRO Postdoctoral Fellowship in ML and AI in Materials Science (eligibility wording)](https://prosple.com/graduate-employers/csiro/jobs-internships/csiro-postdoctoral-fellowship-in-machine-learning-and-artificial-intelligence-in-materials-science)
+- [Google Research Australia Research Scientist](https://www.jointaro.com/jobs/google/research-scientist-google-research-australia/)
+- [Google DeepMind Research Scientist, Systems and Programming, Sydney](https://builtin.com/job/research-scientist-systems-and-programming-sydney-australia/6447926)
+- [Google Cloud Forward Deployed Engineer, GenAI, Sydney](https://www.glassdoor.com.au/Job/jobs.htm?sc.occupationParam=Forward+Deployed+Engineer%2C+GenAI%2C+Google+Cloud&sc.locationSeoString=Sydney&locId=2235932&locT=C)
+- [Salesforce Forward Deployed Engineer, Australia](https://careers.salesforce.com/en/jobs/jr343861/forward-deployed-engineer/)
+- [Databricks AI Engineer, Forward Deployed](https://www.databricks.com/company/careers/professional-services-operations/ai-engineer---fde-forward-deployed-engineer-8298792002)
+- [Forward Deployed Engineer market note, 2026](https://careersy.ai/blog/forward-deployed-engineer)
+- [Atlassian agentic LLM roles and other LLM jobs, Glassdoor](https://www.glassdoor.com.au/Job/llm-jobs-SRCH_KO0,3.htm)
+- [Atlassian Data Scientist 2026 Graduate](https://au.gradconnection.com/employers/atlassian/jobs/atlassian-data-scientist-2026-graduate-australia-new-zealand/)
+- [Canva Research Scientist salary, Levels.fyi](https://www.levels.fyi/companies/canva/salaries/software-engineer/title/research-scientist)
+- [15 AI companies in Australia, Built In](https://builtin.com/articles/ai-companies-australia)
+- [Top companies hiring AI engineers in Australia 2026](https://www.nucamp.co/blog/coding-bootcamp-australia-aus-top-10-tech-companies-to-work-for-in-australia-in-2025)
+- [AI Engineer jobs in Sydney, 2026 market guide](https://zenvanriel.com/job/ai-jobs-sydney/)
+- [Machine Learning Engineer salary Australia 2026](https://www.aitalentondemand.com.au/article/machine-learning-engineer-salary-australia-2026)
+- [Data Scientist salary Australia 2026](https://www.aitalentondemand.com.au/article/data-scientist-salary-australia-2026)
+- [ML Engineer vs Data Scientist salary 2026](https://www.resourced.com.au/articles/ml-engineer-vs-data-scientist-salary-australia-2026)
+- [AI Jobs Australia](https://www.aijobsaustralia.com.au/)
+- [AI Hiring Board, Australia](https://www.aihiringboard.com/ai-jobs-in-australia)
+- [Australia's AI Safety Institute, Department of Industry](https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute)
+- [AISI founding team recruitment](https://www.goodancestors.org.au/aisi-founders)
+- [Data Scientist ANZSCO 224115 on the CSOL](https://www.widen.com.au/csol/data-scientist/)
+- [Home Affairs Skills in Demand visa 482](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482)
+- [Home Affairs National Innovation visa 858](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/national-innovation-visa-858)
+- [NIV priority sectors](https://visaenvoy.com/national-innovation-visa/niv-visa-priority-sectors/)
+- [NIV selection analysis 2026, Lexology](https://www.lexology.com/library/detail.aspx?g=d7da26c4-9916-4e89-9787-f8734f0a76bf)
 - [ARC DECRA](https://www.arc.gov.au/funding-research/arc-funding-schemes/discovery/discovery-early-career-researcher-award-decra)
-- [UQ research support: DECRA](https://research-support.uq.edu.au/resources-and-support/research-office/research-grants/funding-schemes/australian-research-council/arc-discovery-early-career-researcher-awards-decra)
+- [Emerging roles in AI, Jobs and Skills Australia](https://www.jobsandskills.gov.au/research/emerging-roles/artificial-intelligence)
