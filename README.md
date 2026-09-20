@@ -15,7 +15,12 @@ AI + 农业，收敛到一件事：**水稻系统的碳与甲烷量化引擎**�
 
 用过程模型加 AI，给稻田的甲烷减排和土壤固碳出一份能过第三方核证的数字，卖给需要这份数字的人。荆州提供田间数据和模型校准，加州提供收入。
 
-完整论证见 [`product-thesis.zh-CN.md`](product-thesis.zh-CN.md)。
+路径：**先做技术供应商，再做项目开发商**。
+
+切入点是一个单点垄断的瓶颈：稻田碳量化的 Tier 3 模型层被 Regrow 独家控制（DNDC 独家商业授权），其他所有开发商要么付钱，要么没有合规引擎。DSSAT 是开源的，且已含甲烷与淹水化学模块。定位就是**给所有不是 Regrow 的人，提供一个能过注册机构验证的开源稻田 Tier 3 引擎**。
+
+- 方向论证与市场数据：[`product-thesis.zh-CN.md`](product-thesis.zh-CN.md)
+- 卖什么、卖给谁、多少钱、先建什么：[`go-to-market.zh-CN.md`](go-to-market.zh-CN.md)
 
 ## 为什么是这两站
 
@@ -31,6 +36,7 @@ AI + 农业，收敛到一件事：**水稻系统的碳与甲烷量化引擎**�
 
 ## 仓库内容
 
-- `product-thesis.zh-CN.md`：产品方向论证、市场数据、商业模式、90 天计划。
+- `product-thesis.zh-CN.md`：产品方向论证、市场数据、商业模式选择。
+- `go-to-market.zh-CN.md`：技术供应商路线的产品阶梯、客户名单、注册机构验证路径、90 天计划。
 - `australia-job-search.md`、`australia-job-search.zh-CN.md`、`shenzhen-job-search.zh-CN.md`：2026 年 9 月做过的求职调研，已不再作为方向，留作资料。
 - `archive/`：更早的农业方向求职版本。
