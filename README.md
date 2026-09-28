@@ -38,6 +38,7 @@ AI + 农业，收敛到一件事：**水稻系统的碳与甲烷量化引擎**�
 
 - `product-thesis.zh-CN.md`：产品方向论证、市场数据、商业模式选择。
 - `go-to-market.zh-CN.md`：技术供应商路线的产品阶梯、客户名单、注册机构验证路径、90 天计划。
+- `hubei-methane-landscape.zh-CN.md`：湖北稻田甲烷政策的牵头部门、县级落点、在做这件事的三支队伍，以及由此收窄的差异化定位。
 - `jingzhou-network.zh-CN.md`：在荆州重建家庭网络与社会关系的打法、制度通道、12 个月节奏。
 - `daily-jingzhou.zh-CN.md`：每天一件荆州的事——一个锚加一张轮值表，半小时以内。
 - `templates/roster.template.csv`、`bin/today.py`：人物档案模板与"今天该联系谁"脚本。真实档案不入公开仓库（见 `.gitignore`）。
