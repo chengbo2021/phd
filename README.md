@@ -38,5 +38,6 @@ AI + 农业，收敛到一件事：**水稻系统的碳与甲烷量化引擎**�
 
 - `product-thesis.zh-CN.md`：产品方向论证、市场数据、商业模式选择。
 - `go-to-market.zh-CN.md`：技术供应商路线的产品阶梯、客户名单、注册机构验证路径、90 天计划。
+- `jingzhou-network.zh-CN.md`：在荆州重建家庭网络与社会关系的打法、制度通道、12 个月节奏。
 - `australia-job-search.md`、`australia-job-search.zh-CN.md`、`shenzhen-job-search.zh-CN.md`：2026 年 9 月做过的求职调研，已不再作为方向，留作资料。
 - `archive/`：更早的农业方向求职版本。
