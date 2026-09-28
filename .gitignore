@@ -1,0 +1,7 @@
+# 真实人物档案与私人记录：绝不进入公开仓库
+roster.csv
+roster*.csv
+!templates/roster.template.csv
+private/
+notes/
+*.local.md
