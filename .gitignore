@@ -2,6 +2,7 @@
 roster.csv
 roster*.csv
 !templates/roster.template.csv
+!templates/roster-phd.template.csv
 private/
 notes/
 *.local.md
