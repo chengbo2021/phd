@@ -41,6 +41,8 @@ AI + 农业，收敛到一件事：**水稻系统的碳与甲烷量化引擎**�
 - `hubei-methane-landscape.zh-CN.md`：湖北稻田甲烷政策的牵头部门、县级落点、在做这件事的三支队伍，以及由此收窄的差异化定位。
 - `premium-agri-products.zh-CN.md`：荆州与全国的优质农产品名录、认证体系现状，以及"国内卖标签、国外卖信用"这条变现路径。
 - `jingzhou-network.zh-CN.md`：在荆州重建家庭网络与社会关系的打法、制度通道、12 个月节奏。
+- `phd-network.zh-CN.md`：把认识的各领域博士按产品缺口和所在位置分类，用合著署名凑出跨学科团队、用国别关系敲开越南与印度客户的门、撑过没有收入的头几个月；含独立评审候选的利益冲突提醒。
+- `templates/roster-phd.template.csv`、`bin/phd_gaps.py`：博士圈档案模板与缺口图脚本，列出每个缺口谁能补、哪块还没人。联系节奏同样用 `bin/today.py`。
 - `daily-jingzhou.zh-CN.md`：每天一件荆州的事——一个锚加一张轮值表，半小时以内。
 - `templates/roster.template.csv`、`bin/today.py`：人物档案模板与"今天该联系谁"脚本。真实档案不入公开仓库（见 `.gitignore`）。
 - `events-master-calendar.zh-CN.md`：武汉、荆州、监利三地全年活动月度对照总表，含可用于农产品品牌露出的窗口排序。
