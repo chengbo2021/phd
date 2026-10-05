@@ -43,6 +43,7 @@ AI + 农业，收敛到一件事：**水稻系统的碳与甲烷量化引擎**�
 - `jingzhou-network.zh-CN.md`：在荆州重建家庭网络与社会关系的打法、制度通道、12 个月节奏。
 - `daily-jingzhou.zh-CN.md`：每天一件荆州的事——一个锚加一张轮值表，半小时以内。
 - `templates/roster.template.csv`、`bin/today.py`：人物档案模板与"今天该联系谁"脚本。真实档案不入公开仓库（见 `.gitignore`）。
+- `events-master-calendar.zh-CN.md`：武汉、荆州、监利三地全年活动月度对照总表，含可用于农产品品牌露出的窗口排序。
 - `wuhan-events-calendar.zh-CN.md`：武汉年度文旅活动日历，按月排，含四个固定锚点与全国级赛事。参考资料。
 - `jingzhou-events-calendar.zh-CN.md`：荆州年度文旅活动日历，四个假期档期加八个县市区的文化 IP 分工。参考资料。
 - `australia-job-search.md`、`australia-job-search.zh-CN.md`、`shenzhen-job-search.zh-CN.md`：2026 年 9 月做过的求职调研，已不再作为方向，留作资料。
