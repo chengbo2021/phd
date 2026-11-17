@@ -48,9 +48,11 @@
 | 去处 | 说明 |
 |---|---|
 | West Point Lake | 就在 I-85 上，佐治亚和阿拉巴马交界处，从奥本出发走佐治亚 2 号出口。往返亚特兰大的路上可以停 |
-| Lake Martin | 奥本西北方向的大湖，住在奥本期间的周末去处 |
+| Lake Martin | 奥本西北方向的大湖，你已经去过很多次，是现成的、不用再找的那个湖 |
 
-**住在奥本的这段时间，第三圈其实是最顺手的：** 每次"亚特兰大日"回程在 West Point Lake 停半小时，就是一个固定的仪式。
+**住在奥本的这段时间，第三圈其实是最顺手的：** Lake Martin 照旧去；每次"亚特兰大日"回程在 West Point Lake 停半小时，就是一个固定的仪式。
+
+**搬去亚特兰大要想清楚的一点：** Lake Martin 离亚特兰大比离奥本远得多，不再是随手能去的地方。第二圈里得挑一个来接替它，按大小和玩法最接近的是 Lake Lanier，按距离最近的是 Lake Allatoona。
 
 ## 3. 走路
 
@@ -100,7 +102,7 @@
 ## 尚未核实
 
 - 各处湖和公园的距离是凭记忆估的
-- Lake Martin、Stone Mountain、Lake Lanier、Sweetwater Creek、Westside Park、Chattahoochee 河的描述没有在本次检索中核对
+- Stone Mountain、Lake Lanier、Sweetwater Creek、Westside Park、Chattahoochee 河的描述没有在本次检索中核对
 - 北佐治亚红叶、冬季结冰停摆是凭记忆写的
 - 亚特兰大是否有武汉菜馆
 - 各家餐馆是否仍在营业
